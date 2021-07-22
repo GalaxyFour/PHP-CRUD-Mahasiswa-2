@@ -103,6 +103,7 @@ if (isset($_POST['update'])) {
                             <label class="col-sm-2 col-form-label">&nbsp;</label>
                             <div class="col-sm-6">
                                 <input type="submit" name="update" class="btn btn-primary" value="UPDATE">
+                                <input type="submit" name="back_mhs" class="btn btn-primary" value="KEMBALI" onclick="history.go(-1); return false;">
                             </div>
                         </div>
                     </form>

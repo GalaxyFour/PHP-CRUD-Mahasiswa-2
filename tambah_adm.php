@@ -89,7 +89,7 @@ $role = $_SESSION["role"];
                             <label class="col-sm-2 col-form-label">&nbsp;</label>
                             <div class="col-sm-6">
                                 <input type="submit" name="submit_adm" class="btn btn-primary" value="SIMPAN">
-                                <input type="submit" name="back_mhs" class="btn btn-primary" value="KEMBALI" onclick="history.go(-1)">
+                                <input type="submit" name="back_mhs" class="btn btn-primary" value="KEMBALI" onclick="history.go(-1); return false;">
                             </div>
                         </div>
                     </form>
